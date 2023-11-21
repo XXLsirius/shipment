@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["app/**/*.ts", "app/**/*.d.ts", "app/**/*.tsx", "app/**/*.vue", "shims-vue.d.ts", "shims-vue.d.ts"]
+}
